@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower & Envelope</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flower-container">
+        <div class="flower"></div>
+    </div>
+
+    <div class="envelope-container">
+        <div class="envelope" onclick="openEnvelope()">
+            <div class="envelope-flap"></div>
+            <div class="envelope-body">
+                <span class="message" id="message"></span>
+            </div>
+        </div>
+    </div>
+
+    <button class="reset-btn" onclick="resetPage()">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
